@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: "SF Pro", Arial, Helvetica, sans-serif;
+}
+h2{
+    margin-bottom: 1rem;
+}
+h3{
+    font-size: 1em;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.cardContainer{
+    display: flex;
+    gap: .5em;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.itemCard{
+    position: relative;
+    display: flex;
+    height: 12em;
+    width: 8em;
+    border-radius: .5rem;
+    background-color: lightgray;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+
+
+}
+.itemCard img{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.itemCardInfo {
+    position: absolute;
+    bottom: 0;                 /* sticks it to the bottom */
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);  /* semi-transparent black background */
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    box-sizing: border-box;
+}
+.itemCardInfo h3,p{
+    margin: 0;
+    font-weight: 500;
+}
+.itemCardInfo p{
+    font-size: .5em;
+    font-weight: 400;
+}
