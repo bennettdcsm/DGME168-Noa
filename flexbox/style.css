@@ -3,6 +3,8 @@
 }
 body{
     font-family: "SF Pro", Arial, Helvetica, sans-serif;
+    background-color: #222;
+    color: white;
 }
 h2{
     margin-bottom: 1rem;
@@ -10,10 +12,20 @@ h2{
 h3{
     font-size: 1em;
 }
+header{
+    display: flex;
+    width: 100%;
+}
 main{
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: center;
+
+}
+section{
+    width: 100%;
+    padding: 1em;
 }
 .cardContainer{
     display: flex;
@@ -25,6 +37,8 @@ main{
     position: relative;
     display: flex;
     height: 12em;
+    flex-basis: 35%;
+    flex-grow: 1;
     width: 8em;
     border-radius: .5rem;
     background-color: lightgray;
@@ -35,7 +49,7 @@ main{
 
 }
 .itemCard img{
-    display: flex;
+    display: block;
     justify-content: center;
     height: 100%;
 }
@@ -57,4 +71,12 @@ main{
 .itemCardInfo p{
     font-size: .5em;
     font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    /* CSS rules for screens that are 768px wide or narrower */
+    main {
+        /* Adjust layout: for example, switch from a row layout to a column layout */
+        flex-direction: column;
+    }
 }
