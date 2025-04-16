@@ -60,7 +60,7 @@ nav a:visited{
     height: 15rem;
 }
 
-.side2{
+.side2 {
     grid-area: side;
     background-color: black;
     color: lightskyblue;
@@ -69,6 +69,7 @@ nav a:visited{
     padding: 2rem;
     font-size: 1.2rem;
     border-radius: .5rem;
+    height: inherit;
 }
 .side2 nav{
     display: flex;
