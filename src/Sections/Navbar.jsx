@@ -47,12 +47,9 @@ export default function Navbar() {
 
     return (
         <nav className="fixed top-0 inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
-            <div className="mx-auto c-space max-w-7xl">
-                <div className="flex items-center justify-between py-2 sm:py-0">
-                    {/*<a className="text-xl font-bold transition-colors text-neutral-400 hover:text-white">*/}
+            <div className="mx-auto c-space w-full sm:max-w-7xl">
+                <div className="flex items-center justify-between py-0 sm:py-2">
                         <img className='w-8 h-8 ' src='/DGME168-Noa/assets/logo.svg'/>
-                    {/*Noa*/}
-                    {/*</a>*/}
                     <button onClick={onClick}
                             className="flex cursor-pointer sm:hidden text-neutral-400 hover:text-white">
                         <img
