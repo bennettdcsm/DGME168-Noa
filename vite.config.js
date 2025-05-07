@@ -5,11 +5,12 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  build:{
-    rollupOptions: {
-      input:{
-        app: './main.html'
-      }
-    }
-  }
+  base:"/DGME-Noa"
+  // build:{
+  //   rollupOptions: {
+  //     input:{
+  //       app: './main.html'
+  //     }
+  //   }
+  // }
 })
