@@ -12,8 +12,8 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "copyHTML":"cp dist/main.html ./index.html",
-    "copyAssets":"cp -r dist/DGME168-Noa/assets ./ && cp -r dist/DGME168-Noa/models . && cp -r dist/assets .",
+    "copyHTML": "cp dist/main.html ./index.html",
+    "copyAssets": "cp -r dist/DGME168-Noa/assets ./ && cp -r dist/DGME168-Noa/models . && cp -r dist/assets .",
     "build3": "npm run build &&  npm run copyHTML && npm run copyAssets"
   },
   "dependencies": {
@@ -29,6 +29,7 @@
     "react-dom": "^19.0.0",
     "react-game-kit": "^1.0.6",
     "react-responsive": "^10.0.1",
+    "react-scroll": "^1.9.3",
     "tailwind-merge": "^3.2.0"
   },
   "devDependencies": {
