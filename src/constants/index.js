@@ -12,7 +12,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/DGME168-Noa/assets/projects/accessories.jpg",
     year: "2025",
     tags: [
       {
@@ -50,7 +50,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/DGME168-Noa/assets/projects/auth-system.jpg",
     year: "2025",
     tags: [
       {
@@ -74,7 +74,7 @@ export const myProjects = [
 
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/DGME168-Noa/assets/projects/blazor-app.jpg",
     year: "2024",
     tags: [
       {
@@ -97,7 +97,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/DGME168-Noa/assets/projects/game-engine.jpg",
     year: "2024",
     tags: [
       {
@@ -121,7 +121,7 @@ export const myProjects = [
 
     href: "",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/DGME168-Noa/assets/projects/wordpress-theme.jpg",
     year: "2024",
     tags: [
       {
