@@ -10,7 +10,7 @@ import Footer from "./Sections/Footer.jsx";
 export default function App() {
     return (
         <div>
-            <div className="container mx-auto max-w-7xl">
+            <div className="container mx-auto max-w-7xl md:items-start md:justify-start overflow-hidden c-space">
                 <Navbar/>
                 <Hero/>
                 <About/>
