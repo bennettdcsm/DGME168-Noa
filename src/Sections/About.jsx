@@ -9,8 +9,8 @@ export default function About() {
 
     const grid2Container = useRef();
     return (
-        <motion.section className="c-space section-spacing">
-            <h2 className='text-heading'>About Me</h2>
+        <motion.section className="c-space section-spacing" id='about'>
+            <h2 className='text-heading' id='AboutMe'>About Me</h2>
             <motion.div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12" >
                 {/*Grid 1*/}
                 <motion.div className='flex items-end grid-default-color grid-1' viewport={{ once: true, amount: 0.3 }} initial={{opacity:0, y:50}} whileInView={{opacity: 1, y:0}} transition={{delay:.2, duration:.5}}>

@@ -3,6 +3,8 @@ import {experiences} from "../constants";
 
 export default function Experience() {
     return (
-        <Timeline data={experiences}/>
+        <div id='experience'>
+            <Timeline data={experiences}/>
+        </div>
     )
 }
