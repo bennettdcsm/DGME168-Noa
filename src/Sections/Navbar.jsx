@@ -46,7 +46,7 @@ export default function Navbar() {
 
 
     return (
-        <nav className="fixed top-0 inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
+        <nav className="fixed top-0 inset-x-0 z-20 w-[100vh] backdrop-blur-lg bg-primary/40">
             <div className="mx-auto c-space max-w-7xl">
                 <div className="flex items-center justify-between py-2 sm:py-0">
                     {/*<a className="text-xl font-bold transition-colors text-neutral-400 hover:text-white">*/}
