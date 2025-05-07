@@ -5,8 +5,7 @@ export default function Contact() {
                 className='flex flex-col items-center justify-center max-w-md p-5 border border-white/10 rounded-2xl bg-primary'>
                 <div className='flex flex-col items-start w-full gap-5 mb-10'>
                     <h2 className='text-heading'>Let's talk</h2>
-                    <p className='font-normal text-neutral-400'>This is craz sc sd sd f s df sdfsdfe s fe s f se fs e e
-                        eessfsbhf y</p>
+                    <p className='font-normal text-neutral-400'>Please fill out the form below if you’d like to review my portfolio and discuss potential projects.</p>
                 </div>
                 <form className='w-full'>
                     <div className='mb-5'>
