@@ -15,7 +15,7 @@ export default function About() {
                 {/*Grid 1*/}
                 <motion.div className='flex items-end grid-default-color grid-1' viewport={{ once: true, amount: 0.3 }} initial={{opacity:0, y:50}} whileInView={{opacity: 1, y:0}} transition={{delay:.2, duration:.5}}>
                     <img
-                        src='/assets/coding-pov.png'
+                        src='/DGME168-Noa/assets/coding-pov.png'
                         className='absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]'
                     alt=''/>
                     <div className='z-10'>

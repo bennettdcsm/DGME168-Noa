@@ -11,7 +11,10 @@
     "lint": "eslint dgme168/portfolio",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "copyHTML":"cp dist/main.html ./index.html",
+    "copyAssets":"cp -r dist/DGME168-Noa/assets ./ && cp -r dist/DGME168-Noa/models .",
+    "build3": "npm run build &&  npm run copyHTML && npm run copyAssets"
   },
   "dependencies": {
     "@react-three/drei": "^10.0.7",

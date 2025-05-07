@@ -29,7 +29,7 @@ export default function EmailButton() {
                               exit={{opacity: 0, y: 10}}
                               transition={{duration: 0.2, ease: 'easeInOut'}}
                     >
-                        <img src='/assets/copy-done.svg' className='w-5' alt='Copied Email'/>
+                        <img src='/DGME168-Noa/assets/copy-done.svg' className='w-5' alt='Copied Email'/>
                         Email has been copied
                     </motion.p>
                 ) : (
@@ -40,7 +40,7 @@ export default function EmailButton() {
                               exit={{opacity: 0, y: 10}}
                               transition={{duration: 0.2}}
                     >
-                        <img className='w-5' src='/assets/copy.svg' alt='Copy Email'/>
+                        <img className='w-5' src='/DGME168-Noa/assets/copy.svg' alt='Copy Email'/>
                         Copy Email Address
                     </motion.p>
                 )

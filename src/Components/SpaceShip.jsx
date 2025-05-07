@@ -13,7 +13,7 @@ import {useFrame} from "@react-three/fiber";
 
 export function SpaceShip(props) {
     const group = useRef()
-    const { nodes, materials, animations } = useGLTF('/models/lego_star_destroyer.glb')
+    const { nodes, materials, animations } = useGLTF('/DGME168-Noa/models/lego_star_destroyer.glb')
     const { actions } = useAnimations(animations, group)
 
 
@@ -82,4 +82,4 @@ export function SpaceShip(props) {
     )
 }
 
-useGLTF.preload('/models/lego_star_destroyer.glb')
+useGLTF.preload('/DGME168-Noa/models/lego_star_destroyer.glb')

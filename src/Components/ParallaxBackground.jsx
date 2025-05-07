@@ -20,7 +20,7 @@ export default function ParallaxBackground() {
                 <div
                     className="absolute inset-0 w-full h-screen -z-70"
                     style={{
-                        backgroundImage: 'url(/assets/background/backgroundsky.png)',
+                        backgroundImage: 'url(/DGME168-Noa/assets/background/backgroundsky.png)',
                         backgroundPosition: 'bottom',
                         backgroundSize: 'cover'
                     }}/>
@@ -28,7 +28,7 @@ export default function ParallaxBackground() {
                 <motion.div
                     className="absolute inset-0 -z-30"
                     style={{
-                        backgroundImage: 'url(/assets/background/background-far.png)',
+                        backgroundImage: 'url(/DGME168-Noa/assets/background/background-far.png)',
                         backgroundPosition: 'bottom',
                         backgroundSize: 'cover',
                         y: mountain2Y,
@@ -36,7 +36,7 @@ export default function ParallaxBackground() {
                 <motion.div
                     className="absolute inset-0 -z-20"
                     style={{
-                        backgroundImage: 'url(/assets/background/background-middel.png)',
+                        backgroundImage: 'url(/DGME168-Noa/assets/background/background-middel.png)',
                         backgroundPosition: 'bottom',
                         backgroundSize: 'cover',
                         y: mountain3Y,
@@ -44,7 +44,7 @@ export default function ParallaxBackground() {
                 <motion.div
                     className="absolute inset-0 -z-10"
                     style={{
-                        backgroundImage: 'url(/assets/background/foreground.png)',
+                        backgroundImage: 'url(/DGME168-Noa/assets/background/foreground.png)',
                         backgroundPosition: 'bottom',
                         backgroundSize: 'cover',
                         y: mountain1Y,
@@ -53,7 +53,7 @@ export default function ParallaxBackground() {
                 <motion.div
                     className="absolute inset-0 -z-60"
                     style={{
-                        backgroundImage: 'url(/assets/background/big-planet.png)',
+                        backgroundImage: 'url(/DGME168-Noa/assets/background/big-planet.png)',
                         backgroundPosition: 'bottom',
                         backgroundSize: 'cover',
                         x: planetsX,
@@ -62,7 +62,7 @@ export default function ParallaxBackground() {
                 <motion.div
                     className="absolute inset-0 -z-50"
                     style={{
-                        backgroundImage: 'url(/assets/background/small-planet.png)',
+                        backgroundImage: 'url(/DGME168-Noa/assets/background/small-planet.png)',
                         backgroundPosition: 'bottom',
                         backgroundSize: 'cover',
                         x: planets2X,
@@ -71,7 +71,7 @@ export default function ParallaxBackground() {
                 <motion.div
                     className="absolute inset-0 -z-40"
                     style={{
-                        backgroundImage: 'url(/assets/background/medium-planet.png)',
+                        backgroundImage: 'url(/DGME168-Noa/assets/background/medium-planet.png)',
                         backgroundPosition: 'bottom',
                         backgroundSize: 'cover',
                         x: planets3X,

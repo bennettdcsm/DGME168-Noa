@@ -47,13 +47,13 @@ export default function Navbar() {
             <div className="mx-auto c-space max-w-7xl">
                 <div className="flex items-center justify-between py-2 sm:py-0">
                     {/*<a className="text-xl font-bold transition-colors text-neutral-400 hover:text-white">*/}
-                        <img className='w-8 h-8 ' src='/assets/logo.svg'/>
+                        <img className='w-8 h-8 ' src='/DGME168-Noa/assets/logo.svg'/>
                     {/*Noa*/}
                     {/*</a>*/}
                     <button onClick={onClick}
                             className="flex cursor-pointer sm:hidden text-neutral-400 hover:text-white">
                         <img
-                            src={open ? '/assets/close.svg' : '/assets/menu.svg' }
+                            src={open ? '/DGME168-Noa/assets/close.svg' : '/DGME168-Noa/assets/menu.svg' }
                             className="w-6 h-6"
                             alt="togle"/>
                     </button>
