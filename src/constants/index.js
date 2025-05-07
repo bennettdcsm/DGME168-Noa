@@ -18,22 +18,22 @@ export const myProjects = [
       {
         id: 1,
         name: "React",
-        path: "/DGME168-Noa/assets/pro/assets/logos/react.svg",
+        path: "/DGME168-Noa/assets/logos/react.svg",
       },
       {
         id: 2,
         name: "GitHub",
-        path: "/DGME168-Noa/assets/pro/assets/logos/github.svg",
+        path: "/DGME168-Noa/assets/logos/github.svg",
       },
       {
         id: 3,
         name: "CSS",
-        path: "/DGME168-Noa/assets/pro/assets/logos/css3.svg",
+        path: "/DGME168-Noa/assets/logos/css3.svg",
       },
       {
         id: 4,
         name: "TailwindCSS",
-        path: "/DGME168-Noa/assets/pro/assets/logos/tailwindcss.svg",
+        path: "/DGME168-Noa/assets/logos/tailwindcss.svg",
       },
     ],
   },
@@ -56,7 +56,7 @@ export const myProjects = [
       {
         id: 1,
         name: "Figma",
-        path: "/DGME168-Noa/assets/pro/assets/logos/figma.svg",
+        path: "/DGME168-Noa/assets/logos/figma.svg",
       }
     ],
   },
@@ -80,7 +80,7 @@ export const myProjects = [
       {
         id: 1,
         name: "Figma",
-        path: "/DGME168-Noa/assets/pro/assets/logos/figma.svg",
+        path: "/DGME168-Noa/assets/logos/figma.svg",
       }
     ],
   },
@@ -103,7 +103,7 @@ export const myProjects = [
       {
         id: 1,
         name: "Figma",
-        path: "/DGME168-Noa/assets/pro/assets/logos/figma.svg",
+        path: "/DGME168-Noa/assets/logos/figma.svg",
       }
     ],
   },
@@ -127,7 +127,7 @@ export const myProjects = [
       {
         id: 1,
         name: "Figma",
-        path: "/DGME168-Noa/assets/pro/assets/logos/figma.svg",
+        path: "/DGME168-Noa/assets/logos/figma.svg",
       }
     ],
   },
