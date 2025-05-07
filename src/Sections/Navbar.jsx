@@ -6,27 +6,27 @@ function Navigation() {
     return (
         <ul className='nav-ul'>
             <li className='nav-li'>
-                <Link  className='nav-link' to="home" smooth={true} duration={500}>
+                <Link  className='nav-link cursor-pointer' to="home" smooth={true} duration={500}>
                     Home
                 </Link>
             </li>
             <li className='nav-li'>
-                <Link className="nav-link" to="about" smooth={true} duration={500}>
+                <Link className="nav-link cursor-pointer" to="about" smooth={true} duration={500}>
                     About
                 </Link>
             </li>
             <li className='nav-li'>
-                <Link className="nav-link" to="work" smooth={true} duration={500}>
+                <Link className="nav-link cursor-pointer" to="work" smooth={true} duration={500}>
                     Work
                 </Link>
             </li>
             <li className='nav-li'>
-                <Link className="nav-link" to="experience" smooth={true} duration={500}>
+                <Link className="nav-link cursor-pointer" to="experience" smooth={true} duration={500}>
                     Experience
                 </Link>
             </li>
             <li className='nav-li'>
-                <Link className="nav-link" to="contact" smooth={true} duration={500}>
+                <Link className="nav-link cursor-pointer" to="contact" smooth={true} duration={500}>
                     Contact
                 </Link>
             </li>
