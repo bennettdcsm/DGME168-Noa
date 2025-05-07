@@ -13,7 +13,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "copyHTML":"cp dist/main.html ./index.html",
-    "copyAssets":"cp -r dist/DGME168-Noa/assets ./ && cp -r dist/DGME168-Noa/models .",
+    "copyAssets":"cp -r dist/DGME168-Noa/assets ./ && cp -r dist/DGME168-Noa/models . && cp -r dist/assets .",
     "build3": "npm run build &&  npm run copyHTML && npm run copyAssets"
   },
   "dependencies": {
