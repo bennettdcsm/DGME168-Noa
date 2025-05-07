@@ -5,7 +5,7 @@ import {AuroraText} from "./AuroraText.jsx";
 
 export default function HeroText() {
 
-    const words = ['Fun', 'Nice', 'User First'];
+    const words = ['Interactive', 'Dynamic', 'User Friendly'];
     const variants = {
         hidden: {opacity: 0, x: -50},
         visible: {opacity: 1, x: 0},

@@ -2,6 +2,8 @@ import {useState} from "react";
 import {motion} from 'motion/react'
 import {Link} from 'react-scroll'
 
+
+
 function Navigation() {
     return (
         <ul className='nav-ul'>

@@ -2,12 +2,13 @@ import HeroText from "../Components/HeroText.jsx";
 import ParallaxBackground from "../Components/ParallaxBackground.jsx";
 import {Canvas, useFrame} from '@react-three/fiber'
 import {Astronaut} from "../Components/Astronaut.jsx";
-import {Center, Float, OrbitControls} from "@react-three/drei";
+import { Float} from "@react-three/drei";
 import {useMediaQuery} from 'react-responsive';
 import {easing} from 'maath'
 import {Suspense} from "react";
 import Loader from "../Components/Loader.jsx";
 import {SpaceShip} from "../Components/SpaceShip.jsx";
+
 
 
 export default function Hero() {
